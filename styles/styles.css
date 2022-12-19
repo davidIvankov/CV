@@ -281,4 +281,25 @@ body {
   background-color: var(--color-yellow);
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    width: 150vw;
+  }
+}
+@media screen and (max-width: 510px) {
+  body {
+    width: 200vw;
+  }
+}
+@media screen and (max-width: 380px) {
+  body {
+    width: 250vw;
+  }
+}
+@media screen and (max-width: 310px) {
+  body {
+    width: 300vw;
+  }
 }/*# sourceMappingURL=styles.css.map */
